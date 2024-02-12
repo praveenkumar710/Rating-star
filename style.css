@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: gray;
+}
+.center {
+  text-align: center;
+  background-color: white;
+  padding: 50px;
+}
+.star-rating {
+  display: inline-block;
+  font-size: 34px;
+  cursor: pointer;
+}
+.star {
+  color: lightgrey;
+  transition: color 0.2s;
+}
+.star.highlight {
+  color: gold;
+}
